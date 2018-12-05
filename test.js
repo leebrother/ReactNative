@@ -1,4 +1,5 @@
-function main(React, ReactNative, componentState, require) {
+// function main(React, ReactNative, componentState, require) {
+function main(React, React1, localState, require) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {

@@ -7,10 +7,12 @@ Object.defineProperty(exports, "__esModule", {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _react = React;
+//var _react = React;
+var react_1 = React;
 
-var _react2 = _interopRequireDefault(_react);
-
+//var _react2 = _interopRequireDefault(_react);
+var react_2 = _interopRequireDefault(react_1);
+  
 return react_1.createElement(react_1.View, {},
         [react_1.createElement(
                         Notification_1.Notification, {
@@ -297,7 +299,12 @@ return react_1.createElement(react_1.View, {},
 
 var _reactNative = ReactNative;
 
-  return _react2.default.createElement(
+//  return _react2.default.createElement(
+//          _reactNative.Text,
+//          { onPress : function () { alert(componentState.state.existingUserId) }},
+//          ['Nice Once Again. Thank you !!']
+//      );
+  return react_2.default.createElement(
           _reactNative.Text,
           { onPress : function () { alert(componentState.state.existingUserId) }},
           ['Nice Once Again. Thank you !!']
